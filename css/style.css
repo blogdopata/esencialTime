@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: ;
+    src: url();
+    font-style: ;
+    font-weight: normal;
+}
+
+
+
+:root {
+    font-style: 18px;
+    --gray30: #212121;
+    --gray20: #212429;
+    --gray10: #616161;
+}
+
+
+body {
+    color: var(--gray30);
+
+}
+
+a {
+    color: var(--gray30);
+}
+
+header {
+
+    width: 50vw;
+    font-size: 14px;
+    color: var(--gray10);
+}
+
+header a {
+    /*Solo en el contexto del header voy a cambiar el valor de gray10*/
+    --gray10:red; 
+    color: var(--gray10);
+ 
+    text-decoration: none;
+  
+}
+
+header a:hover {
+    color: var(--gray30);
+}
+
+nav details summary {
+
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 60px;
+    /* font-style: |3.75em; */
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
